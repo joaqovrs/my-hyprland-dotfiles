@@ -100,9 +100,6 @@ main() {
   warn "Notas:"
   echo "  - El theming dinámico se dispara con ~/.local/bin/set-wallpaper.sh y"
   echo "    el selector con SUPER+SHIFT+W (wallpaper-picker-icons.sh)."
-  echo "  - hyprland.conf referencia un par de scripts personales opcionales"
-  echo "    (autostart-media.sh, powermenu) que no están incluidos; si no existen"
-  echo "    simplemente se ignoran. Bórralos del config si no los usas."
   echo "  - El daemon de notificaciones real es swaync (no mako)."
 }
 

@@ -175,10 +175,4 @@ sudo pacman -S --needed \
 └── wallpapers/         # Wallpapers -> ~/Pictures/Wallpapers
 ```
 
-> [!NOTE]
-> `hyprland.conf` referencia dos scripts personales opcionales
-> (`~/.config/hypr/autostart-media.sh` y `~/bin/powermenu`) que **no** se
-> incluyen. Si no existen, Hyprland los ignora sin error; bórralos del config
-> si no los usas.
-
 ---
