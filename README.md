@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💧 Hyprland Dotfiles
+# 💧 Hyprland Dotfiles - Sunset
 
 ### Mi configuración personal de Hyprland en Arch Linux
 
