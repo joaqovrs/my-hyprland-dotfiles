@@ -83,13 +83,13 @@ main() {
   echo
 
   if [[ "$INSTALL_DEPS" -eq 1 ]]; then
-    read -rp "¿Instalar dependencias con pacman? [Y/n] " a
-    [[ "${a,,}" != "n" ]] && install_deps || warn "Saltando instalación de deps."
+    read -rp "¿Instalar dependencias con pacman? [Y/n] " a || a=""
+    if [[ "${a,,}" != "n" ]]; then install_deps; else warn "Saltando instalación de deps."; fi
   else
     warn "Modo --no-deps: no se instalan paquetes."
   fi
 
-  read -rp "¿Hacer backup de ~/.config antes de copiar? [Y/n] " b
+  read -rp "¿Hacer backup de ~/.config antes de copiar? [Y/n] " b || b=""
   [[ "${b,,}" != "n" ]] && backup_config
 
   copy_files
