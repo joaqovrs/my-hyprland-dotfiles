@@ -129,9 +129,3 @@ yay -S matugen-bin hyprsunset
 ```
 
 ---
-
-<div align="center">
-
-Hecho con ❤️ sobre **Arch Linux** + **Hyprland**
-
-</div>
