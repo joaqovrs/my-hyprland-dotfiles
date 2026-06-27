@@ -3,7 +3,7 @@
   "logo": {
     "position": "top",
     "type": "file",
-    "source": "/home/joaqodev/.config/fastfetch/logo.txt",
+    "source": "~/.config/fastfetch/logo.txt",
     "color": {
       "1": "{{ colors.primary.default.hex }}"
     },
