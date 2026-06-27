@@ -7,4 +7,4 @@ configuration {
     terminal:        "kitty";
 }
 
-@theme "/home/joaqodev/.config/rofi/theme.rasi"
+@import "theme.rasi"
